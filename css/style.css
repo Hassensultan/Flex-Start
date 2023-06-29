@@ -4631,19 +4631,27 @@ img {
 
     .header .container .links ul {
 
-        position: absolute;
+      position: absolute;
 
-        top: 100%;
+      top: 57%;
 
-        left: 0;
+      left: 50%;
 
-        text-align: center;
+      transform: translateX(-50%);
 
-        flex-direction: column;
+      flex-direction: column;
 
-        background-color: var(--main-white);
+      background-color: var(--main-white);
 
-        width: 100%;
+      width: 90%;
+
+      margin: 0 auto;
+
+      border-radius: 5px;
+
+      box-shadow: 0px 0px 50px 1000px #0e0e32b8;
+
+      align-items: flex-start;
 
     }
 
@@ -4655,7 +4663,13 @@ img {
 
     .header .container .links ul li {
 
-        padding: 10px 0;
+        padding: 0;
+
+    }
+
+    .header .container .links ul li:last-child {
+
+      width: 100%;
 
     }
 
@@ -4693,7 +4707,7 @@ img {
 
         left: 0;
 
-        margin-top: 30px;
+        margin-top: 5px;
 
         width: 100%;
 
@@ -4727,17 +4741,27 @@ img {
       
     }
 
+    .header .container .list li.mega-menue ul {
+
+      left: 50%;
+
+      transform: translateX(-50%);
+
+      height: auto;
+
+      background-color: var(--main-white);
+
+      width: 100%;
+
+      padding: 10px;
+
+    }
+
     .header .container .list li.mega-menue:hover ul {
 
-        position: relative;
+      position: relative;
 
-        left: 0;
-
-        height: auto;
-
-        background-color: var(--main-white);
-
-        top: 10px;
+      top: 0px;
 
     }
 
@@ -4749,7 +4773,7 @@ img {
 
     .header .container .list li.mega-menue ul li a {
 
-        padding: 10px 0px;
+        padding: 8.3px 8px;
 
     }
 
@@ -4782,6 +4806,8 @@ img {
     .header .container .list li.drop-down .sec-list .deep-drop:hover ul {
 
         display: flex;
+
+        padding: 7px 0;
 
     }
 
@@ -4893,7 +4919,6 @@ img {
       
       gap: 25px;
       
-
     }
 
     .team .container .team-member:hover {
@@ -4929,6 +4954,48 @@ img {
       width: 75%;
 
       margin-top: 50px;
+
+    }
+
+    .header .container .list li.mega-menue {
+
+      width: 100%;
+
+    }
+
+    .header .container ul li a {
+
+      display: flex;
+
+      justify-content: space-between;
+
+    }
+
+    .header .container ul li a.btn {
+
+      margin: 0;
+
+      justify-content: center;
+
+    }
+
+    .header .container .list .drop-down .sec-list li a {
+
+    padding: 10px 20px;
+
+    }
+
+    .header .container .list li.drop-down .sec-list .deep-drop ul li a {
+
+      padding: 4px 30px;
+      
+    }
+
+    .header .container .list li.drop-down .sec-list .deep-drop a i {
+
+      transform: rotate(90deg);
+
+      margin: 0;
 
     }
 
