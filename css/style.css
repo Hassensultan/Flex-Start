@@ -4647,7 +4647,7 @@ img {
 
     }
 
-    .header .container .links .burg:hover + ul {
+    .header .container .links:hover ul.list {
 
         display: flex;
 
