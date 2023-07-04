@@ -282,6 +282,8 @@ img {
 
   font-size: 30px;
 
+  color: var(--main-font-color);
+
 }
 
 .header .container ul {
