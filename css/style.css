@@ -973,6 +973,8 @@ img {
 
     justify-content: space-between;
 
+    align-items: center;
+
   }
 
   .features .container img {
@@ -1103,6 +1105,8 @@ img {
     display: flex;
 
     justify-content: space-between;
+
+    align-items: center;
     
   }
 
@@ -2815,6 +2819,8 @@ img {
 
     row-gap: 20px;
 
+    height: 420px;
+
   }
 
   .contacts .container .info .box {
@@ -2879,6 +2885,8 @@ img {
 
     justify-content: space-between;
 
+    row-gap: 20px;
+
   }
 
   .contacts .container form .txt,
@@ -2907,6 +2915,12 @@ img {
     display: block;
 
     padding: 10px;
+
+    resize: vertical;
+
+    transition-property: border;
+
+    min-height: 150px;
 
   }
 
@@ -3445,7 +3459,13 @@ img {
 
   }
 
-  .blog-page .container .bloger-info .search-sec .search-box i {
+  .blog-page .container .bloger-info .search-sec .search-box button {
+
+    border: none;
+
+  }
+
+  .blog-page .container .bloger-info .search-sec .search-box button i {
 
     background-color: var(--main-color);
 
@@ -4110,6 +4130,15 @@ img {
 
   }
 
+  
+  .blog-page .container .bloger-posts .send-reply textarea {
+
+    resize: vertical;
+
+    min-height: 62px;
+
+  }
+
   .blog-page .container .bloger-posts .send-reply input,
   .blog-page .container .bloger-posts .send-reply textarea {
 
@@ -4122,6 +4151,8 @@ img {
     outline: none;
 
     transition: 0.3s;
+
+    transition-property: border;
 
     margin-bottom: 25px;
 
