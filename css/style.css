@@ -5257,6 +5257,12 @@ img {
 
   }
 
+  .contacts .container .info {
+
+    height: auto;
+
+  }
+
   .contacts .container .info .box {
 
     width: 80%;
